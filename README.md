@@ -31,6 +31,7 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 php yii migrate/up --migrationPath=vendor/cyberz/yii2-language-url/language/migrations
 ```
+
 2)Setup config:
 ```php 
 'components' => [
@@ -39,8 +40,10 @@ php yii migrate/up --migrationPath=vendor/cyberz/yii2-language-url/language/migr
             ...
      'urlManager' => [
                 'class'=>'cyberz\language\components\LanguageUrlManager',
-            ...```
+            ...
+```
 
 3)Use widget:            
 ```php
-<?= \cyberz\language\widgets\Switcher::widget(); ?>```
+<?= \cyberz\language\widgets\Switcher::widget(); ?>
+```
