@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "cyberz\\language\\": "language/"
+            "cyberz\\language\\": "yii2-language-url/language/"
         }
     }
 }
