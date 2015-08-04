@@ -1,0 +1,21 @@
+{
+    "name": "cyberz/yii2-language-url",
+    "description": "Language mangement for URL's",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," language"," url"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cyberz",
+            "email": "webunit.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cyberz\\language\\": ""
+        }
+    }
+}
