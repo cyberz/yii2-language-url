@@ -23,8 +23,8 @@ class m150216_145739_language extends Migration
         ], $tableOptions);
 
         $this->batchInsert('{{%language}}', ['url', 'local', 'name', 'default', 'created_at', 'updated_at'], [
-            ['en', 'en-EN', 'English', 0, time(), time()],
-            ['ru', 'ru-RU', 'Русский', 1, time(), time()],
+            ['en', 'en-EN', 'English', 1, time(), time()],
+            ['ru', 'ru-RU', 'Русский', 0, time(), time()],
         ]);
     }
 
